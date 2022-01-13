@@ -1,10 +1,10 @@
 
 <?php
-include("assets/common/header.php");
+include("../assets/common/header.php");
 ?>
 
 <?php
-include("assets/common/bars.php");
+include("../assets/common/bars.php");
 ?>
 
 	<div class="content-page">
@@ -43,5 +43,5 @@ include("assets/common/bars.php");
 
 
 <?php
-include("assets/common/footer.php");
+include("../assets/common/footer.php");
 ?>

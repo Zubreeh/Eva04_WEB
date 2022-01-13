@@ -1,9 +1,9 @@
 <?php
-    include("assets/common/header.php");
+    include("../assets/common/header.php");
 ?>
 
 <?php
-include("assets/common/bars.php");
+include("../assets/common/bars.php");
 ?>
 <div class="content-page">
 		<div class="container-fluid">
@@ -14,48 +14,16 @@ include("assets/common/bars.php");
 			</div>
 			<hr>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-12">
+					<table class="table" id="tabla-productos"> 
+						<tbody>
+						</tbody>
+					</table>
 				</div>
-				<div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-			</div>
-            <div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-			</div>
-            <div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-			</div>
-            <div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                </div>
-			</div>
+            </div>
 		</div>
 	</div>
 
 <?php
-    include("assets/common/footer.php");
+    include("../assets/common/footer.php");
 ?>

@@ -3,7 +3,7 @@
 
 <!-- LOGO -->
 <div class="headerbar-left">
-    <a href="index.php" class="logo"><img alt="Logo" src="assets/images/logo.png" /> <span>Evaluacion 03</span></a>
+    <a href="index.php" class="logo"><img alt="Logo" src="../assets/images/logo.png" /> <span>Evaluacion 03</span></a>
 </div>
 
 <nav class="navbar-custom">
@@ -23,17 +23,17 @@
     <ul>
 
             <li class="submenu">
-                <a class="active" href="index.php"><i class="fa fa-fw fa-bars"></i><span> Dashboard </span> </a>
+                <a class="active" href="../frontend/index.php"><i class="fa fa-fw fa-bars"></i><span> Dashboard </span> </a>
             </li>
 
             
             <li class="submenu">
-                <a href="productos.php"><i class="fa fa-fw fa-table"></i> <span> Productos </span></a>
+                <a href="../frontend/productos.php"><i class="fa fa-fw fa-table"></i> <span> Productos </span></a>
 
             </li>
                                 
             <li class="submenu">
-                <a href="mantenedor.php"><i class="fa fa-fw fa-tv"></i> <span> Mantenedor </span> </a>
+                <a href="../frontend/mantenedor.php"><i class="fa fa-fw fa-tv"></i> <span> Mantenedor </span> </a>
             </li>
             
             
