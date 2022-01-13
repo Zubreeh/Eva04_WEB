@@ -16,11 +16,18 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+$selectquery='SELECT * from productos';
+
+if ($conn->query($selectquery) === TRUE){
+
+}
+
 echo "Connected successfully";
 
 echo json_encode(
 
     array(
+
         'resp'=>true,
     )
 
