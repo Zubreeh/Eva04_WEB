@@ -16,16 +16,12 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+echo "Connected successfully";
 
-
-
-
-$conn->close();
 echo json_encode(
 
     array(
         'resp'=>true,
-        'POST'=>(object)$_POST,
     )
 
 )

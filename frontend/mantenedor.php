@@ -18,7 +18,7 @@ include("../assets/common/bars.php");
 				<div class="content">
 					<div class="row">
 						<label for="NombreProducto">Nombre producto</label>
-						<input type="text" class="form-control" id="NombreProducto">
+						<input type="text" class="form-control" id="nombreProducto">
 					</div>
 					<div  class="row">
 						<label for="descProducto">Descripcion</label>
@@ -32,7 +32,7 @@ include("../assets/common/bars.php");
 					</div>
                     <div class="row">
 						<label for="codigo">Codigo</label>
-						<input type="text" class="form-control" id="curlImaodigo">
+						<input type="text" class="form-control" id="codigo">
 					</div>
 					<div class="row">
 						<button class="btn-black" onClick="enviarProducto()">Guardar</button>

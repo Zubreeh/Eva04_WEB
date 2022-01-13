@@ -16,9 +16,18 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+$nombreProducto=$_POST['nombreProducto'];
+$descProducto=$_POST['descProducto'];
+$codigo=$_POST['codigo'];
+$urlIma=$_POST['urlIma'];
 
+$insertQueryt = "insert into productos (nombrePr descPr codPr urlPr) values('".$nombreProducto."', '".$codigo."' , '".$descProducto."' , '".$urlIma."')";
 
-
+if($conn->query($insertQueryt) === TRUE) {
+    echo "se ingresó correctamente";
+} else {
+    echo "Error";
+}
 
 $conn->close();
 echo json_encode(
